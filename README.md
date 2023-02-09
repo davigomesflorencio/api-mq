@@ -19,7 +19,7 @@
 
 ### Primeiros passos
 
-Crie um database no mysql chamando de persons
+Crie um database no mysql chamando de "persons"
 
 ### Parte 1: Instalar o ActiveMQ no windows e criar fila
 
@@ -27,9 +27,9 @@ Realizar o download do ActiveMQ, nesse link https://activemq.apache.org/componen
 
 Depois de descompactar, é só ir até o caminho ..\apache-activemq-version-bin\apache-activemq-version\bin\win64 e executar o script InstallService.bat. É possível verificar isso nos serviços do Windows.
 
-O console do ActiveMQ é nesse url: http://localhost:8161
+O console do ActiveMQ é nesse url: http://localhost:8161 .
 
-Para criar uma fila, clique na opção sinalizada “Manage ActiveMQ broker” e na tela de login digite admin como usuário e senha
+Depois de acessar a url clique na opção sinalizada “Manage ActiveMQ broker” e na tela de login digite admin como usuário e senha. Em seguida clique na aba "Queue" para criar uma fila preenchendo o campo “Queue Name”.
 
 ### Parte 2: Consumindo mensagens
 
